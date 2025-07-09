@@ -35,5 +35,5 @@ This script is only to facilitate it.
 - Copy this file to your machine
 - I recommend adding to your zsh or any other prompt as a alias:
 `alias @grebase="~/code/rebase.sh;"`
-- Run the command:
+- Run the command below and follow the instructions:
 `@grebase`
