@@ -1,10 +1,6 @@
-# 1. Get the parameters using message and wait for the user to confirm
-# 2. Get the parameters from the command line
-# 3. Check if the parameters are valid
-# 4. If valid, run the command with the parameters
-# 5. the first parameter is the branch that will be the base for the rebase
-# 6. the second parameter is the branch that will be rebased
-# 7. the third parameters are the commits that will be cherry-picked
+# This script is used to rebase a branch and cherry-pick specific commits onto it.
+# It prompts for parameters if not provided, validates them, and performs the rebase and cherry-pick operations.
+# It also offers the option to push the rebased branch to the remote repository
 #!/bin/bash
 # Function to prompt for parameters if not provided
 prompt_for_params() {
